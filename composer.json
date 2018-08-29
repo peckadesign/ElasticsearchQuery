@@ -1,0 +1,27 @@
+{
+  "name": "pd/elasticsearch-query",
+  "description": "",
+  "authors": [
+	{
+	  "name": "Václav Čevela",
+	  "email": "vaclav.cevela@peckadesign.cz"
+	}
+  ],
+  "require": {
+  },
+  "require-dev": {
+    "nette/tester": "^2.0",
+    "phpstan/phpstan-shim": "^0.10.2",
+    "pd/coding-standard": "^1.14"
+  },
+  "autoload": {
+	"classmap": [
+	  "src/"
+	]
+  },
+  "autoload-dev": {
+	"psr-4": {
+	  "Pd\\ElasticSearchModule": "src/"
+	}
+  }
+}
